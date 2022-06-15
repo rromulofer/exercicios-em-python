@@ -1,0 +1,12 @@
+times = ('São Paulo', 'Internacional', 'Atlético-MG', 'Flamengo',
+'Grêmio', 'Palmeiras', 'Fluminense', 'Santos', 'Ceará', 'Corinthians')
+print('-=' * 15)
+print(f'Lista de times: {times}')
+print('-=' * 15)
+print(f'Primeiros 5 colocados: {times[0:5]}')
+print('-=' * 15)
+print(f'Últimos 4 colocados: {times[6: ]}')
+print('-=' * 15)
+print(f'Times em ordem alfabética: {sorted(times)}')
+print('-=' * 15)
+print(f'O Flamengo está na {times.index("Flamengo")+1}º posição')
