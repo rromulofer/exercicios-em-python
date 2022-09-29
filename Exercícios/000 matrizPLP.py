@@ -1,4 +1,5 @@
 #Contrução da Matriz 1 e Matriz 2 - Programa Principal
+
 import random
 
 def somaMatrizes(matriz1, matriz2):
@@ -22,9 +23,8 @@ def produtoMatrizes(matriz1, matriz2):
     return result
 
 matriz1 = []
-
-n = int(input("Informe a quantidade de linhas\n da matriz 1:" ))
-m = int(input("Informe a quantidade de colunas\n da matriz 1:" ))
+n = int(input("Digite a quantidade de linhas para matriz 1:" ))
+m = int(input("Digite a quantidade de colunas para matriz 1:" ))
 for i in range(n):
      matriz1.append([])
      for j in range(m):
@@ -35,10 +35,9 @@ for i in range(len(matriz1)):
         print(matriz1[i][j], end=" ")
     print ("\n")
 
-
 matriz2 = []
-n = int(input("Informe a quantidade de linhas\n da matriz 2:" ))
-m = int(input("Informe a quantidade de colunas\n da matriz 2:" ))
+n = int(input("Digite a quantidade de linhas para matriz 2:" ))
+m = int(input("Digite a quantidade de colunas para matriz 2:" ))
 
 for i in range(n):
      matriz2.append([])
@@ -57,7 +56,7 @@ if soma is not None:
     for i in soma:
         print(i)
 else:
-    print('Matrizes devem conter o mesmo numero de linhas e colunas')
+    print('As matrizes devem conter o mesmo numero de linhas e colunas')
 
 print('\n\n')
 
@@ -65,4 +64,4 @@ if produto is not None:
     for i in produto:
         print(i)
 else:
-    print('Matrizes devem conter o mesmo numero de linhas e colunas')
+    print('As matrizes devem conter o mesmo numero de linhas e colunas')
