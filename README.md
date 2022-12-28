@@ -1,3 +1,3 @@
 # Scripts-python
  
-Exercícios desenvolvidos durante o curso de Python lecionado pelo professor
+Exercícios em Python que foram desenvolvidos durante o curso de Python lecionado pelo professor Gustavo Guanabara.
