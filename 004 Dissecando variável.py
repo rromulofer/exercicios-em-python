@@ -1,8 +1,0 @@
-v = input('Digite algo: ')
-print('Qual seu tipo? ', type(v))
-print('Número? ', v.isnumeric())
-print('Alfabeto? ', v.isalpha())
-print('Alfanumérico? ', v.isalnum())
-print('Ascii? ', v.isascii())
-print('Decimal? ', v.isdecimal())
-print('Maiusculo? ', v.isupper())
