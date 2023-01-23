@@ -3,7 +3,7 @@
 # Data de criação: 23/01/23
 # Curso em Vídeo
 
-n = str(input('Type a name: ')).upper()
+n = str(input('Enter a name: ')).upper()
 print('Amount of A: {}'.format(n.count('A')))
 print('First A: {}'.format(n.find('A')+1))
 print('Last A: {}'.format(n.rfind('A')+1))

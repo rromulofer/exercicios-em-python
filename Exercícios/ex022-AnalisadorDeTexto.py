@@ -3,7 +3,7 @@
 # Data de criação: 22/01/23
 # Curso em Vídeo
 
-name = str(input('Type your name: ')).strip()
+name = str(input('Enter your name: ')).strip()
 print('Uppercase name: {}'.format(name.upper()))
 print('Lowercase name: {}'.format(name.lower()))
 print('Total letters: {}'.format(len(name) - name.count(' ')))

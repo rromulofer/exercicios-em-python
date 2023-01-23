@@ -3,7 +3,7 @@
 # Data de criação: 23/01/23
 # Curso em Vídeo
 
-v = float(input('Type a vehicle speed: '))
+v = float(input('Enter a vehicle speed: '))
 if v > 80:
     t = (v-80)*7
     print('---You were fined---')

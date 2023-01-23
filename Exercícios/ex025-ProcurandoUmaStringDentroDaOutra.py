@@ -3,5 +3,5 @@
 # Data de criação: 22/01/23
 # Curso em Vídeo
 
-n = str(input('Type a name: '))
+n = str(input('Enter a name: '))
 print('SOUZA' in n.upper())

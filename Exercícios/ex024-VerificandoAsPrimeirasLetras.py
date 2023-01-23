@@ -3,5 +3,5 @@
 # Data de criação: 22/01/23
 # Curso em Vídeo
 
-c = str(input('Type a city: '))
+c = str(input('Enter a city: '))
 print(c[:5].upper() == 'SANTO')
