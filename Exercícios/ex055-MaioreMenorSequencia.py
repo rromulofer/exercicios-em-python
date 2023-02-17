@@ -1,3 +1,8 @@
+# Autor: Rômulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criação: 17/02/23
+# Curso em Vídeo
+
 me = 0
 ma = 0
 for x in range(1,4):
