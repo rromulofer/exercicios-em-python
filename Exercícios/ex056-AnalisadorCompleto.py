@@ -1,3 +1,8 @@
+# Autor: Rômulo Souza Fernandes
+# E-mail: 00119110559@pq.uenf.br
+# Data de criação: 17/02/23
+# Curso em Vídeo
+
 maior = 0
 media = 0
 menos = 0
