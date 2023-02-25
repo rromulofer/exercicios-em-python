@@ -3,11 +3,12 @@
 # Data de criação: 24/02/23
 # Curso em Vídeo
 
-# Exercício Python 084: Faça um programa que leia nome e peso de várias pessoas, 
-# guardando tudo em uma lista. No final, mostre:
+# Exercício Python 084: Faça um programa que leia nome e peso de várias
+# pessoas, guardando tudo em uma lista. No final, mostre:
 #   A) Quantas pessoas foram cadastradas.
-#       B) Uma listagem com as pessoas mais pesadas. 
+#       B) Uma listagem com as pessoas mais pesadas.
 #           C) Uma listagem com as pessoas mais leves.
+
 pessoa = list()
 lista_pessoas = list()
 maior = menor = 0
@@ -51,9 +52,3 @@ for p in lista_pessoas:
         print(f'[{p[0]}]', end='')
 
 print()
-
-
-
-
-
-
